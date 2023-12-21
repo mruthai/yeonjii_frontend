@@ -36,7 +36,7 @@ export const GrammarProvider: React.FC<GrammarProviderProps> = ({ children }) =>
   const [isEditing, setIsEditing] = useState(false);
 
   const axiosInstance = axios.create({
-    baseURL: "https://craftly-backend.onrender.com",
+    baseURL: "https://yeonjii.onrender.com/",
   });
 
   const fetchCorrections = async () => {

@@ -96,7 +96,7 @@ export const DataProvider: React.FC<DataProviderProps> = ({ children }) => {
   }, [sessionId]);
   
   const axiosInstance = axios.create({
-    baseURL: "https://craftly-backend.onrender.com",
+    baseURL: "https://yeonjii.onrender.com/",
     // baseURL: "http://127.0.0.1:5000",
   });
   
