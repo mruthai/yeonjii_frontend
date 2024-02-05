@@ -27,12 +27,12 @@ const Home: React.FC = () => {
           />
           <p className="text-3xl font-semibold font-product">Yeonjii</p>
         </div>
-        <div className="space-x-4 pr-36">
+        {/* <div className="space-x-4 pr-36">
           <button className="font-open  text-primary-6 px-8 py-3">Login</button>
           <button className="font-open text-primary-6 border border-purple-400 rounded-3xl px-7 py-3">
             Sign up
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-row justify-center items-center w-full max-w-screen-2xl mx-auto p-20 bg-gradient-to-tr from-purple-200 via-white to-purple-200 rounded-2xl">
         <div className="relative flex flex-col flex-grow m-10">
